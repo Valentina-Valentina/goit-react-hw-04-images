@@ -32,6 +32,7 @@ export const App = () => {
     }
 
     getGalleryItems();    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery, galleryPage]);
 
   const fetchGalleryItems = async (searchQuery, galleryPage) => {
